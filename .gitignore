@@ -1,0 +1,55 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# PHP dependencies and tooling
+/vendor/
+composer.phar
+.phpunit.cache/
+.php-cs-fixer.cache
+
+# JavaScript dependencies and build output
+/node_modules/
+/dist/
+/build/
+.npm/
+
+# Runtime files
+/logs/
+/tmp/
+/cache/
+/storage/
+/uploads/
+/public/uploads/
+/assets/uploads/*
+!/assets/uploads/bookings/
+/assets/uploads/bookings/*
+!/assets/uploads/bookings/BK-2026-006/
+!/assets/uploads/bookings/BK-2026-006/**
+*.log
+
+# Local database dumps / backups
+/backups/
+*.dump
+*.sql.gz
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local certificates / keys
+*.pem
+*.key
+*.crt
+/dataabitaman/
